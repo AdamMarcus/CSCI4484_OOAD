@@ -1,4 +1,8 @@
 package com.company;
 
-public class Circle {
+public class Circle extends Shape {
+
+    Circle() {
+        this.name = "Circle";    }
+
 }
