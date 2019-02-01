@@ -2,13 +2,15 @@ package com.company;
 
 public class Shape {
     protected String name;
+    protected int area;
 
     Shape() {
-        this.name = "Unkown";
+        this.name = "Unknown";
     }
 
     public void printShape() {
-        System.out.println(this.name);
+
+        System.out.println(this.name + " of area " + this.area);
     }
 
     public String getName() {
@@ -17,5 +19,9 @@ public class Shape {
 
     public void setName(String _name) {
         this.name = _name;
+    }
+
+    public int getArea() {
+        return this.area;
     }
 }
