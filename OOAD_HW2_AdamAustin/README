@@ -1,1 +1,7 @@
 The second programing language I wrote in was Ruby.
+
+My implementation did not really change, only the language.
+
+You can run this program by indexing into the folder and running 
+
+ruby main.rb
